@@ -4,7 +4,7 @@ const server = jsonServer.create()
 const router = jsonServer.router('./src/data/database.json')
 const publicRoutes = require('./routes/publicRoutes')
 const authenticationMiddleware = require('./middleware/authenticationMiddleware')
-
+//hghghytjhj
 
 server.use(bodyParser.urlencoded({ extended: true }))
 server.use(bodyParser.json())
